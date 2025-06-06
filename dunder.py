@@ -11,7 +11,7 @@ class Complex:
         newImg = self.img + num2.img
         return Complex(newReal, newImg)
     
-    # dunder function
+    # dunder function / operator overloading because inbuilt add method has been changed for this case
     def __add__(self, num2):
         newReal = self.real + num2.real
         newImg = self.img + num2.img
