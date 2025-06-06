@@ -5,4 +5,7 @@ class Person:
         self.name = name
 
 p1 = Person()
+p1.changeName("rahul")
 print(p1.name)
+print(Person.name)
+
